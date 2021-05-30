@@ -1,15 +1,12 @@
-## Java version used: 11
+<h3><b>Java version used: 11</b></h3>
 
-## Building and starting the application
-
+<h3><b>Building and starting the application</b></h3>
 You can build and start the application in a IDE and see the results in the console or
 you can start it in cmd by navigating to the project folder (BookApplication) and typing: 
 java -jar target/bookapp-0.0.1-SNAPSHOT.jar
 
 
-
-## Second assignment
-
+<h3><b>Second assignment</b></h3>
 The results for the second assignment are printed in the IDE console or cmd.
 The functions are called in the main method in BookappApplication class.
 I wasn't sure whether to use DB & JPA or solve the assignment with plain Java so I solved this assignmend in both ways.
@@ -17,8 +14,7 @@ SimpleAuthorService and SimpleBookService is where I used plain java logic. On t
 spring JPA repositories and H2 in-memory database.
 
 
-## Third assignment
-
+<h3><b>Third assignment</b></h3>
 The RESTfull API is located in the Controller subfolder.
 The API is tested in a separate application (BookApplicationApiTests) using Rest-Assured library.
 I used h2 database for this assigment with these specifications:
@@ -28,8 +24,7 @@ spring.datasource.password=
 For sending GET request to the API: https://localhost:9090/api/books  
 
 
-##Testing the API
-
+<h3><b>Testing the API</b></h3>
 While the BookApp is running, you can test the API in a cmd by navigating to the BookApplicationApiTests folder and typing:
 mvn -Dtest=BookTests test
 (or in the IDE)
