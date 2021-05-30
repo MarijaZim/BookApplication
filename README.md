@@ -25,6 +25,6 @@ For sending GET request to the API: https://localhost:9090/api/books
 
 
 ## Testing the API
-While the BookApp is running, you can test the API in a cmd by navigating to the BookApplicationApiTests folder and typing:
+While the BookApp is running, you can test the API in a cmd by navigating to the BookApplicationApiTests folder and typing: </br>
 mvn -Dtest=BookTests test
 (or in the IDE)
