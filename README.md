@@ -15,7 +15,7 @@ spring JPA repositories and H2 in-memory database.
 
 
 ## Third assignment
-The RESTfull API is located in the Controller subfolder.
+The RESTful API is located in the Controller subfolder.
 The API is tested in a separate application (BookApplicationApiTests) using Rest-Assured library.
 I used h2 database for this assigment with these specifications:
 spring.datasource.url=jdbc:h2:mem:testdb
